@@ -1,25 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HFIC4rzj)
 
 ![School of Solana](https://github.com/Ackee-Blockchain/school-of-solana/blob/master/.banner/banner.png?raw=true)
 
 Welcome to **Task 3** of the **School of Solana Season 6**.
 
-## 📚Task 3
-In the previous tasks, you were introduced to Solana basics and Rust. The goal of this task is to connect these elements and work with Rust on Solana. You will become familiar with the basic structure of Solana programs and learn how programming on Solana is done.
-
 ### Task details
-In the previous task, we implemented a calculator, and now we will bring part of this implementation on-chain. The essential idea behind this on-chain program is to initialize a calculator account with the corresponding update authority. The update authority can change operands inside the calculator (X and Y) as well as change the update authority of the Calculator. Additionally, there are methods such as addition, subtraction, multiplication, and division that will perform overflow/underflow resilient operations and emit the result into the Solana logs. Finally, we will subscribe to the logs in our test suite to check the correctness of the results. **Your task is to understand how the program works and implement all parts marked as TODO**.
+Implementing a calculator on-chain. The essential idea behind this on-chain program is to initialize a calculator account with the corresponding update authority. The update authority can change operands inside the calculator (X and Y) as well as change the update authority of the Calculator. Additionally, there are methods such as addition, subtraction, multiplication, and division that will perform overflow/underflow resilient operations and emit the result into the Solana logs. Finally, we will subscribe to the logs in our test suite to check the correctness of the results. **Your task is to understand how the program works on all all parts marked as TODO**.
 
-### Submission Process
-As you may not be familiar with the Anchor Project layout, inside `programs/on-chain-calculator/src/lib.rs`, you can find the program logic. Implement the corresponding **TODO** parts inside `lib.rs`, then test your implementation with the command mentioned below, and when you're done, push the changes of `lib.rs` to GitHub. **Please do not commit any other changes, as it can make the evaluation process more difficult.**
-
-### Deadline
-The deadline for this task is **Wednesday, November 6th, at 23:59 UTC**.
->[!CAUTION]
->Note that we will not accept submissions after the deadline.
-
-### Evaluation
-We will evaluate your submission using the same test suite provided in this task. Therefore, the requirements for this task are to pass **100%** of the provided tests.
 
 ### Setup
 For this Task you need:
